@@ -7,5 +7,9 @@ SUBDIRS += \
     UseHisiIVE \
     UseOpencv
 
+contains(DEFINES,HI3519A){
+SUBDIRS +=FaceRecognition
+}
+
 DISTFILES += \
     build.pri
