@@ -5,11 +5,11 @@ SUBDIRS += \
     FaceDetect \
     UseLinkIVE \
     UseHisiIVE \
-    UseOpencv \
-    PedestrianDetect
+    UseOpencv
 
 contains(DEFINES,HI3519A){
-SUBDIRS +=FaceRecognition
+SUBDIRS +=FaceRecognition \
+    PedestrianDetect
 }
 
 DISTFILES += \
