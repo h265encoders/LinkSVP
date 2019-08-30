@@ -5,7 +5,8 @@ SUBDIRS += \
     FaceDetect \
     UseLinkIVE \
     UseHisiIVE \
-    UseOpencv
+    UseOpencv \
+    PedestrianDetect
 
 contains(DEFINES,HI3519A){
 SUBDIRS +=FaceRecognition
