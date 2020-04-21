@@ -8,7 +8,7 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 include(../build.pri)
-include(../../libmaia-master/maia.pri)
+#include(../../libmaia-master/maia.pri)
 
 SOURCES += main.cpp \
     Worker.cpp

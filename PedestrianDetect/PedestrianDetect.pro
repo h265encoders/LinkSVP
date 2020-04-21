@@ -7,7 +7,5 @@ CONFIG -= app_bundle
 
 TEMPLATE = app
 
-include(../build.pri)
-
+contains(DEFINES,HI3519A){
 SOURCES += main.cpp
-

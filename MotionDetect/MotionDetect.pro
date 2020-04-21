@@ -14,4 +14,3 @@ SOURCES += main.cpp \
 
 HEADERS += \
     MotionDetect.h
-
